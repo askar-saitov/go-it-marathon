@@ -1,0 +1,256 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F5F7FA;
+}
+/* main */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main-content */
+.main-content {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px #4133873d;
+    padding: 105px 90px;
+    margin-left: -15px;
+    border-radius: 12px;
+	border: 3px dashed #fb6d3a;
+
+    outline: 3px dashed #fb6d3a;
+	outline-offset: -7px;
+
+}
+/* about */
+.about {
+    margin-bottom: 40px;
+}
+.about-position {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.about-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+
+}
+
+/* projects */
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project,
+.project-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:#000;
+}
+
+/* work */
+.work {
+    margin-bottom: 45px;
+}
+
+.work-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work-list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* education */
+.education {
+}
+
+.education-univer {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.education-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+	background: #1E2939;
+	background-image: url("../img/pattern-sidebar.jpg");
+	color: #fff;
+	padding-top: 40px;
+	width: 370px;
+	border-radius: 12px;
+	border: 3px dashed #fb6d3a;
+	
+    outline: 3px dashed #fb6d3a;
+	outline-offset: -8px;
+    
+}
+
+.sidebar img {
+	width: 330px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+    border-radius: 165px;
+	border: 3px dashed #fb6d3a;
+    /*
+    outline: 3px dashed #fb6d3a;
+	outline-offset: 4px;
+    box-shadow: 0px 0px 18px 2px #d1c6c2;
+    */
+}
+
+.sidebar h3 {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 27px;
+	margin-bottom: 10px;
+    text-decoration: underline #fb6d3a;
+    text-decoration-style: dashed;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+	margin-left: 40px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.contacts {
+	margin-bottom: 50px;
+}
+
+.contacts span {
+	font-weight: bold;	
+	margin-right: 10px;
+}
+
+.contacts a {
+	font-weight: 700;
+	color: #fb6d3a;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.tech-skills {
+	margin-bottom: 45px;
+}
+
+.tech-skills ul,
+.soft-skills ul {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.tech-skills ul > li::marker,
+.soft-skills ul > li::marker {
+	color: #fb6d3a;
+}
